@@ -1,0 +1,72 @@
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*background*/
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden !important;
+  margin-top: -70px;
+}
+.ghrayri {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+}
+.ghrayri img {
+  width: 50%;
+}
+.ecrire {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  position: relative;
+  margin-top: 140px;
+  padding-left: 20px;
+}
+.ecrire h1 {
+  font-size: 6rem;
+  margin-top: 50px;
+  color: #fdd650;
+}
+.ecrire p {
+  font-size: 2rem;
+  margin-left: 80px;
+}
+/*finish background*/
+
+/*ClientsOuvriers*/
+.ClientsOuvriers {
+  width: 60%;
+  display: flex;
+  justify-content:space-around ;
+  
+  
+  margin: 50px auto;
+  
+}
+
+.ClientsOuvriers img {
+  width: 100px;
+  border-radius: 100%;
+  background-color: #f9c244;
+  border: 5px solid black;
+}
+.ClientsOuvriers svg{
+    width: 110px;
+    background-color: #f9c244;
+    border-radius: 100%
+}
+
+.client{
+  margin-left: 12%;
+}
+.ouvrier{
+  margin-left: 12%;
+}
+.client a svg path{
+  filter: invert(0%) sepia(30%) saturate(65%) hue-rotate(55deg) brightness(65%) contrast(87%);
+}
+/*finish ClientsOuvriers*/

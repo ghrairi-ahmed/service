@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>service.tn</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="../logo/emergency-repair-service-logo-badge-1579091-modified.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="stylesheet" href="./ouvrier.css" />
+  </head>
+  <body class="body">
+    <!-- Font Awesome Icon Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+
+    <div class="lesdeuxcartes">
+
+      <div class="card Ville">
+    <div class="custom-select" style="width:264px;">
+      <select>
+        <option value="0">choisir votre ville</option>
+        <option value="1">Tunis</option>
+        <option value="2">Gabes</option>
+        <option value="3">Sfax</option>
+        <option value="4">Hammamet</option>
+        <option value="5">Sousse</option>
+        <option value="6">Monastir</option>
+      </select>
+    </div>
+        </select>
+      </div>
+      
+      <div class="card Métier">
+        <div class="custom-select" style="width:264px;">
+        <select>
+          <option value="0">choisir le métier</option>
+          <option value="1">Mecanicien</option>
+          <option value="2">Electricien</option>
+          <option value="3">Plombier</option>
+          <option value="4">Coiffeur</option>
+          <option value="5">Menuisier</option>
+          <option value="6">jardinier</option>
+        </select>
+      </div>
+    </div>
+    </div>
+  
+       
+     
+      <form action="../paiment/paiment.html" class="container">
+        <label for="name"><b>Nom</b></label>
+        <input type="text" placeholder="Nom" name="name" required />
+
+        <label for="lastname"><b>Prenom</b></label>
+        <input
+          type="text"
+          placeholder="Prenom"
+          name="lastname"
+          required
+        />
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Email" name="email" required />
+
+        <label for="psw"><b>Mot De Passe</b></label>
+        <input
+          type="password"
+          placeholder="Mot De Passe"
+          name="psw"
+          required
+        />
+
+        <label for="phonenumber"><b>Numero De Télèphone</b></label>
+        <input
+          type="text"
+          placeholder="Numero De Télèphone"
+          name="phonenumber"
+          required
+        />
+
+        <label for="name"><b>Address</b></label>
+        <input type="text" placeholder="Address" name="Address" required />
+
+
+        <button type="submit" class="btn">Connexion</button>
+      </form>
+    </div>
+
+    <script src="./ouvrir.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.body {
+  background-image: url("./photos/ouv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Dropdown Button */
+.btn {
+  background-color: #899DA3;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+/* Add styles to the form container */
+.container {
+  
+  padding: 16px;
+  margin-left: 550px;
+ 
+  width: 30%;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.container label {
+  color: #ddd;
+  font-size: large;
+}
+
+/* select */
+
+.lesdeuxcartes {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px 10px 0;
+  width: 90vw;
+  
+}
+
+.custom-select select{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #899DA3;
+}
+.Métier{
+  width: 20px;
+ 
+}
+
